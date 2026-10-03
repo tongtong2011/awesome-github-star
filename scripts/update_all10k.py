@@ -222,6 +222,7 @@ def translate_missing(items):
         return ""
 
     done = 0
+    deadline = time.time() + 90 * 60  # time budget: stop and commit partial results
     with ThreadPoolExecutor(max_workers=8) as ex:
         futs = {ex.submit(work, it): it for it in todo}
         for fut in as_completed(futs):
@@ -238,6 +239,11 @@ def translate_missing(items):
             if done % 500 == 0:  # checkpoint: save partial translations
                 save_snapshot(items)
                 print("checkpoint saved", flush=True)
+            if time.time() > deadline:
+                print("time budget reached, stopping translation (partial results saved)", flush=True)
+                for f in futs:
+                    f.cancel()
+                break
     ok = sum(1 for it in items if it.get("z"))
     print(f"translation finished: {ok}/{len(items)} have zh", flush=True)
     return items
@@ -319,9 +325,24 @@ def gen_data_js(items):
     open(os.path.join(SUB, "data.js"), "w", encoding="utf-8").write(js)
     print("data.js size:", len(js) // 1024, "KB")
 
+def apply_overrides(items):
+    """Hand-translated (skill-quality) zh descriptions always win over machine ones."""
+    path = os.path.join(HERE, "zh_overrides.json")
+    if not os.path.exists(path):
+        return items
+    ov = json.load(open(path, encoding="utf-8"))
+    n = 0
+    for it in items:
+        if it["n"] in ov:
+            it["z"] = ov[it["n"]]
+            n += 1
+    print(f"applied {n} hand-translation overrides", flush=True)
+    return items
+
 def main():
     items = load_items()
     print("items:", len(items))
+    items = apply_overrides(items)
     if os.environ.get("TRANSLATE") == "1":
         items = translate_missing(items)
     save_snapshot(items)
