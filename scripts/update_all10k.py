@@ -205,30 +205,41 @@ def gtx(text):
     d = json.loads(urllib.request.urlopen(req, timeout=20).read().decode())
     return "".join(seg[0] for seg in d[0])
 
-SEP = "\n@@SEP@@\n"
-
-def translate_missing(items, batch=15):
+def translate_missing(items):
+    """Threaded translation with checkpoint saves (8 workers, 3 retries each)."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
     todo = [it for it in items if not it.get("z") and it["d"] and not has_cjk(it["d"])]
     print(f"to translate: {len(todo)}", flush=True)
-    for i in range(0, len(todo), batch):
-        chunk = todo[i:i + batch]
-        joined = SEP.join(it["d"][:400] for it in chunk)
-        try:
-            out = gtx(joined)
-            parts = [p.strip() for p in out.split("@@SEP@@")]
-            if len(parts) == len(chunk):
-                for it, p in zip(chunk, parts):
-                    it["z"] = p[:200]
-            else:
-                raise RuntimeError(f"sep mismatch {len(parts)}/{len(chunk)}")
-        except Exception:
-            for it in chunk:  # fallback: one by one
-                try:
-                    it["z"] = gtx(it["d"][:400])[:200]
-                    time.sleep(0.3)
-                except Exception:
-                    pass
-        print(f"translated {min(i + batch, len(todo))}/{len(todo)}", flush=True)
+    if not todo:
+        return items
+
+    def work(it):
+        for attempt in range(3):
+            try:
+                return gtx(it["d"][:400])[:200]
+            except Exception:
+                time.sleep(2 + attempt * 3)
+        return ""
+
+    done = 0
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        futs = {ex.submit(work, it): it for it in todo}
+        for fut in as_completed(futs):
+            it = futs[fut]
+            try:
+                z = fut.result()
+            except Exception:
+                z = ""
+            if z:
+                it["z"] = z
+            done += 1
+            if done % 100 == 0:
+                print(f"translated {done}/{len(todo)}", flush=True)
+            if done % 500 == 0:  # checkpoint: save partial translations
+                save_snapshot(items)
+                print("checkpoint saved", flush=True)
+    ok = sum(1 for it in items if it.get("z"))
+    print(f"translation finished: {ok}/{len(items)} have zh", flush=True)
     return items
 
 # ---------------- README ----------------
