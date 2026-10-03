@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 万星仓库全景图 · 10k+ Stars 全站收录</title>
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--green:#3fb950;--gold:#e3b341}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.5}
+.wrap{max-width:1280px;margin:0 auto;padding:32px 20px}
+header{text-align:center;margin-bottom:28px}
+header h1{font-size:30px;margin-bottom:10px}
+header h1 .star{color:var(--gold)}
+header .sub{color:var(--muted);font-size:15px}
+header .sub b{color:var(--accent)}
+.searchbar{display:flex;gap:10px;justify-content:center;margin:22px auto 6px;max-width:720px}
+.searchbar input{flex:1;background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:11px 16px;color:var(--text);font-size:15px;outline:none}
+.searchbar input:focus{border-color:var(--accent)}
+.stats{color:var(--muted);font-size:13px;text-align:center;margin-bottom:18px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:26px}
+.tab{background:var(--panel);border:1px solid var(--border);border-radius:20px;padding:6px 14px;font-size:13px;color:var(--text);cursor:pointer;transition:.15s}
+.tab:hover{border-color:var(--accent)}
+.tab.active{background:var(--accent);border-color:var(--accent);color:#0d1117;font-weight:600}
+.tab .n{color:var(--muted);margin-left:4px}
+.tab.active .n{color:#0d1117}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.card .title{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.card .name{color:var(--accent);text-decoration:none;font-weight:600;font-size:14.5px;word-break:break-all}
+.card .name:hover{text-decoration:underline}
+.card .stars{color:var(--gold);font-size:13px;white-space:nowrap;font-weight:600}
+.card .desc{color:var(--muted);font-size:12.8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .zh{color:#7ee787;font-size:12.5px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card .meta{color:var(--muted);font-size:12px;display:flex;gap:12px;margin-top:auto;padding-top:4px}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:60px 0}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px}
+footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="star">⭐</span> GitHub 万星仓库全景图</h1>
+    <div class="sub">全站所有 <b>10,000+</b> Stars 的公开仓库 · 按应用场景分类 · <span id="updated"></span></div>
+  </header>
+  <div class="searchbar">
+    <input id="q" type="text" placeholder="搜索仓库名 / 简介（支持中英文）…">
+  </div>
+  <div class="stats" id="stats"></div>
+  <div class="tabs" id="tabs"></div>
+  <div class="grid" id="grid"></div>
+  <footer>
+    数据快照抓取自 GitHub Search API（stars:&gt;10000）· 分类为规则引擎自动归类 ·<br>
+    ⬅️ 返回 <a href="https://github.com/tongtong2011/awesome-github-star">awesome-github-star</a> ·
+    英文简介中文翻译由 GitHub Actions 自动完成
+  </footer>
+</div>
+<script>
+const LANG_COLOR = {Python:"#3572A5",JavaScript:"#f1e05a",TypeScript:"#3178c6",Java:"#b07219",Go:"#00ADD8",Rust:"#dea584",C:"#555555","C++":"#f34b7d","C#":"#178600",Ruby:"#701516",PHP:"#4F5D95",Swift:"#F05138",Kotlin:"#A97BFF",Dart:"#00B4AB",Vue:"#41b883",HTML:"#e34c26",CSS:"#563d7c",Shell:"#89e051",Markdown:"#083fa1",Jupyter:"#DA5B0B",R:"#198CE7",Lua:"#000080",Zig:"#ec915c", "-":"#8b949e"};
+let DATA=null, activeCat="all", q="";
+function stars(n){return n>=1000?(n/1000).toFixed(1)+"k":n}
+function render(){
+  const grid=document.getElementById("grid");
+  const list=DATA.repos.filter(r=>(activeCat==="all"||r[0]===activeCat)&&
+    (!q||r[1].toLowerCase().includes(q)||r[4].toLowerCase().includes(q)||(r[5]||"").includes(q)));
+  const frag=document.createDocumentFragment();
+  if(!list.length){const d=document.createElement("div");d.className="empty";d.textContent="没有匹配的仓库";frag.appendChild(d);}
+  for(const r of list.slice(0,1200)){
+    const c=document.createElement("div");c.className="card";
+    const zh=r[5]?`<div class="zh">🇨🇳 ${r[5]}</div>`:"";
+    c.innerHTML=`<div class="title"><a class="name" href="https://github.com/${r[1]}" target="_blank" rel="noopener">${r[1]}</a><span class="stars">★ ${stars(r[2])}</span></div>${zh}<div class="desc">${r[4]||""}</div><div class="meta"><span><span class="dot" style="background:${LANG_COLOR[r[3]]||"#8b949e"}"></span>${r[3]}</span></div>`;
+    frag.appendChild(c);
+  }
+  grid.innerHTML="";grid.appendChild(frag);
+  document.getElementById("stats").textContent=`共 ${DATA.repos.length} 个万星仓库 · 当前显示 ${Math.min(list.length,list.length>1200?1200:list.length)} 个`+(q?` · 搜索命中 ${list.length} 个`:"");
+}
+function init(){
+  DATA=window.ALL10K;
+  document.getElementById("updated").textContent="更新于 "+DATA.updated;
+  const tabs=document.getElementById("tabs");
+  const counts={};DATA.repos.forEach(r=>counts[r[0]]=(counts[r[0]]||0)+1);
+  const mk=(id,label,n)=>{const t=document.createElement("div");t.className="tab"+(id===activeCat?" active":"");t.dataset.id=id;
+    t.innerHTML=label+(n?`<span class="n">${n}</span>`:"");t.onclick=()=>{activeCat=id;document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.id===id));render();};tabs.appendChild(t);};
+  mk("all","🌐 全部",DATA.repos.length);
+  DATA.cats.forEach(c=>{if(counts[c.id])mk(c.id,c.icon+" "+c.name,counts[c.id]);});
+  let deb;document.getElementById("q").addEventListener("input",e=>{clearTimeout(deb);deb=setTimeout(()=>{q=e.target.value.trim().toLowerCase();render();},200);});
+  render();
+}
+const s=document.createElement("script");s.src="data.js";s.onload=init;document.body.appendChild(s);
+</script>
+</body>
+</html>
