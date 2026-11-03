@@ -1,9 +1,9 @@
 # ⭐ 星标淘金图鉴：AI 应用层仓库导航
 
 > 2026，AI 应用元年，Agent 遍地开花。这里只收「**用大模型做事**」的仓库：AI 内容创作（图/视频/动画/短剧）、自媒体 AI 化运营、Agent 框架/平台/工具、MCP、Skill、专家 Agent、多智能体协作编排……基于大模型的应用项目都算。
-> 共 **122** 个仓库，全部亲自验证、真正在用，总计 **462 万+** 星。
+> 共 **122** 个仓库，全部亲自验证、真正在用，总计 **463 万+** 星。
 
-🤖 **本清单由 GitHub Actions 每日自动更新**（当前数据更新于 **2026-11-02**，星标数与仓库数量实时有效）
+🤖 **本清单由 GitHub Actions 每日自动更新**（当前数据更新于 **2026-11-03**，星标数与仓库数量实时有效）
 
 **🚀 [打开可搜索导航页（GitHub Pages）](https://tongtong2011.github.io/awesome-github-star/)** —— 支持关键词搜索、分类筛选，比 README 更好用
 
@@ -16,7 +16,7 @@
 ## ✨ 特性
 
 - 🎯 **122 个仓库，全部亲自验证**，拒绝云收藏
-- ⭐ **总计 462 万+ 星**，含 56 个万星项目
+- ⭐ **总计 463 万+ 星**，含 56 个万星项目
 - 🗂️ **13 大功能分类**，覆盖 AI 视频/短剧、Agent、量化、自媒体四大主线
 - 🔍 **可搜索导航页**（GitHub Pages），支持关键词过滤与分类跳转
 - 🔄 **每日自动更新**：星标数、仓库数量由 Actions 定时刷新，永不过期
@@ -46,22 +46,22 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 137.2k | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or k... |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 74.6k | Python | World's first open-source, agentic video production system. 12 production pip... |
-| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 20.2k | Vue | 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Age... |
-| [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 16.9k | TypeScript | 🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered ... |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 137.7k | Python | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or k... |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 75.5k | Python | World's first open-source, agentic video production system. 12 production pip... |
+| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 20.3k | Vue | 短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Age... |
+| [chatfire-AI/huobao-drama](https://github.com/chatfire-AI/huobao-drama) | 17k | TypeScript | 🎬 火宝短剧 - 基于AI的一站式短剧生成平台 《一句话生成完整短剧，从剧本到成片全自动化》  Huobao Drama - An AI-Powered ... |
 | [linyqh/NarratoAI](https://github.com/linyqh/NarratoAI) | 11.7k | Python | 利用 AI 大模型，一键解说并剪辑视频 |
 | [ArcReel/ArcReel](https://github.com/ArcReel/ArcReel) | 6.1k | Python | AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 / Se... |
 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5.9k | JavaScript | AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 / Agent skills for AI short-drama ... |
-| [zenstory-ai/drama-skills](https://github.com/zenstory-ai/drama-skills) | 3.6k | Python | 开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Cod... |
+| [zenstory-ai/drama-skills](https://github.com/zenstory-ai/drama-skills) | 3.7k | Python | 开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Cod... |
 | [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent) | 3.1k | JavaScript | A realtime voice runtime that keeps Agents talking, working, and present.  Re... |
-| [liangdabiao/Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator) | 2.7k | - | 一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。Seedance 2.0 Storyboard Generator 开源剧情剧本Skill工... |
+| [liangdabiao/Seedance2-Storyboard-Generator](https://github.com/liangdabiao/Seedance2-Storyboard-Generator) | 2.8k | - | 一句话：试错成本越来越高，提示词的重要性从来没有像今天这样大。Seedance 2.0 Storyboard Generator 开源剧情剧本Skill工... |
 | [fogsightai/fogsight](https://github.com/fogsightai/fogsight) | 2.6k | JavaScript | Fogsight is an AI agent and animation engine powered by Large Language Models. |
-| [gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) | 2.3k | HTML | Agent skill: convert Chinese story copy or ordered images into a hand-drawn d... |
-| [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | 1.8k | Python | 漫剧老李 AIGC 创作全流程 Skill · V7.4.26 多技能套装版（Short-Drama Director Suite）：1 总控 + 12 ... |
+| [gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) | 2.4k | HTML | Agent skill: convert Chinese story copy or ordered images into a hand-drawn d... |
+| [lixiaoxiao9888-create/manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | 1.9k | Python | 漫剧老李 AIGC 创作全流程 Skill · V7.4.26 多技能套装版（Short-Drama Director Suite）：1 总控 + 12 ... |
 | [UllrAI/CineGen-ShortDrama](https://github.com/UllrAI/CineGen-ShortDrama) | 565 | TypeScript | AI Director - AI Manga, Anime, Animation, storyboard, Generation System. 开源 A... |
 | [Narrator-AI/Narrator-AI-Master-Coze](https://github.com/Narrator-AI/Narrator-AI-Master-Coze) | 436 | - | NarratorAI — Coze 版影视与短剧解说生成应用 |
-| [A-cat-with-carrots/OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) | 345 | Python | OnlyShot · 神仙鱼 AI 短剧工业流水线 Claude Skill — 一句话 → 剧本/分镜/分镜图/视频/剪辑 五步 → 可发红果抖音的完整... |
+| [A-cat-with-carrots/OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) | 348 | Python | OnlyShot · 神仙鱼 AI 短剧工业流水线 Claude Skill — 一句话 → 剧本/分镜/分镜图/视频/剪辑 五步 → 可发红果抖音的完整... |
 
 ## 2. 🤖 Agent / Skills 生态
 
@@ -69,10 +69,10 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 268.8k | TypeScript | DeepSeek Harness: Everything is a Plugin. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 259.6k | Python | The agent that grows with you |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 143.9k | Python | An AI skill that provides design intelligence for building professional UI/UX... |
-| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 29.1k | HTML | AI-agent Skill for generating polished HTML slide decks: editorial magazine a... |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 270.2k | TypeScript | DeepSeek Harness: Everything is a Plugin. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 260k | Python | The agent that grows with you |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 144.4k | Python | An AI skill that provides design intelligence for building professional UI/UX... |
+| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 29.2k | HTML | AI-agent Skill for generating polished HTML slide decks: editorial magazine a... |
 | [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | 27.2k | TypeScript |  |
 | [jnMetaCode/agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 21.8k | Shell | 🎭 277 个即插即用的 AI 专家角色 — 支持 Claude Code/Cursor/Copilot 等 20 种工具，覆盖工程/设计/营销/金融等 ... |
 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6.3k | - | A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic... |
@@ -82,8 +82,8 @@
 | [anthropics/commerce-agents](https://github.com/anthropics/commerce-agents) | 3.4k | Python | Reference blueprint for building shopping and merchant agents with Claude. Ex... |
 | [yaojingang/yao-open-prompts](https://github.com/yaojingang/yao-open-prompts) | 3k | Python | Practical bilingual AI prompt library for prompt engineering, work, learning,... |
 | [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skill) | 2.7k | Python | YAO = Yielding AI Outcomes. A rigorous engineering, evaluation, governance, a... |
-| [itwanger/PaiAgent](https://github.com/itwanger/PaiAgent) | 713 | Java | 🔥轻量级的AI工作流编排系统，类似dify、n8n，全程使用Vibe Coding，AI工具为Qoder+CLI。涉及到的技术栈包括SpringAI、La... |
-| [Yacey/agnes-ai-generation-skill](https://github.com/Yacey/agnes-ai-generation-skill) | 424 | Python | Agent Skill for Agnes AI text, image, and video generation APIs. |
+| [itwanger/PaiAgent](https://github.com/itwanger/PaiAgent) | 715 | Java | 🔥轻量级的AI工作流编排系统，类似dify、n8n，全程使用Vibe Coding，AI工具为Qoder+CLI。涉及到的技术栈包括SpringAI、La... |
+| [Yacey/agnes-ai-generation-skill](https://github.com/Yacey/agnes-ai-generation-skill) | 425 | Python | Agent Skill for Agnes AI text, image, and video generation APIs. |
 | [HA7CH/ha7ch-school](https://github.com/HA7CH/ha7ch-school) | 400 | HTML | HA7CH AI Native School — 加载即入学的带学 skill；内容托管 school.ha7ch.com(site/)，SkillHub... |
 
 ## 3. 📈 量化交易 / 金融
@@ -92,10 +92,10 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 119.7k | Python | TradingAgents: Multi-Agents LLM Financial Trading Framework |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 67.4k | Python | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market s... |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 120.1k | Python | TradingAgents: Multi-Agents LLM Financial Trading Framework |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 67.5k | Python | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market s... |
 | [vnpy/vnpy](https://github.com/vnpy/vnpy) | 46.2k | Python | 基于Python的开源量化交易平台开发框架 |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37.4k | Python | "Vibe-Trading: Your Personal Trading Agent" |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37.5k | Python | "Vibe-Trading: Your Personal Trading Agent" |
 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 32.8k | Python | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版 |
 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 17k | HTML | AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。... |
 | [myhhub/stock](https://github.com/myhhub/stock) | 15k | Python | stock股票.获取股票数据,计算股票指标,筹码分布,识别股票形态,综合选股,选股策略,股票验证回测,股票自动交易,支持PC及移动设备。 |
@@ -109,7 +109,7 @@
 | [yikart/AiToEarn](https://github.com/yikart/AiToEarn) | 27.2k | TypeScript | Let's use AI to Earn! |
 | [TeamWiseFlow/xiaobei](https://github.com/TeamWiseFlow/xiaobei) | 8.7k | Python | 为OPC/中小微企业量身打造的自媒体获客智能体 |
 | [goenning/google-indexing-script](https://github.com/goenning/google-indexing-script) | 7.7k | TypeScript | Script to get your site indexed on Google in less than 48 hours |
-| [XiaomingX/ai-money-maker-handbook](https://github.com/XiaomingX/ai-money-maker-handbook) | 6.8k | CSS | ai副业赚钱大集合，教你如何利用ai做一些副业项目，赚取更多额外收益。The Ultimate Guide to Making Money with AI... |
+| [XiaomingX/ai-money-maker-handbook](https://github.com/XiaomingX/ai-money-maker-handbook) | 6.9k | CSS | ai副业赚钱大集合，教你如何利用ai做一些副业项目，赚取更多额外收益。The Ultimate Guide to Making Money with AI... |
 | [yaojingang/GEOFlow](https://github.com/yaojingang/GEOFlow) | 4k | PHP | Open-source GEO content engineering and multi-site distribution platform with... |
 | [iniwap/AIWriteX](https://github.com/iniwap/AIWriteX) | 2.2k | Python | AIWriteX - 微信公众号全自动AI工具：全网热搜舆情聚合+趋势分析+爆款选题+文章采集+一键生成排版发布 / AI自动配图 / 去AI味、过朱雀检... |
 | [BetaStreetOmnis/xhs_ai_publisher](https://github.com/BetaStreetOmnis/xhs_ai_publisher) | 2.1k | Python | AI-powered Xiaohongshu/Rednote content creation and publishing tool with PyQt... |
@@ -121,12 +121,12 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 204.6k | Python | A feature-rich command-line audio/video downloader |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 204.9k | Python | A feature-rich command-line audio/video downloader |
 | [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) | 24.9k | C | HandBrake's development repository |
-| [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 9.9k | HTML | 微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv文件，保存文章内图片、视频、音频文件，支持MC... |
+| [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 10k | HTML | 微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx/csv文件，保存文章内图片、视频、音频文件，支持MC... |
 | [jely2002/youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | 9.6k | Rust | Open Video Downloader - A cross-platform GUI for youtube-dl made in Rust with... |
 | [DangJin/awesome-social-media-downloader](https://github.com/DangJin/awesome-social-media-downloader) | 1.9k | - | 👿 收录了一些能够免费下载油管、B 站、抖音等平台视频的下载工具。Some download tools that can freely download... |
-| [vincentnussbaum303/youtube-download](https://github.com/vincentnussbaum303/youtube-download) | 407 | - | 19个最好用免费YouTube视频下载器工具（2025年排行榜） |
+| [vincentnussbaum303/youtube-download](https://github.com/vincentnussbaum303/youtube-download) | 410 | - | 19个最好用免费YouTube视频下载器工具（2025年排行榜） |
 | [shiquda/xyz-dl](https://github.com/shiquda/xyz-dl) | 216 | Python | 小宇宙FM 播客 CLI 下载工具，支持单集下载、专辑下载、字幕下载 |
 
 ## 6. 🧠 AI 工具 / 语音
@@ -135,8 +135,8 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 45.9k | TypeScript | 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints... |
-| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 25.9k | Python | A privacy-first app that strips AI watermarks from content you own. |
+| [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 46.6k | TypeScript | 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints... |
+| [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 26.1k | Python | A privacy-first app that strips AI watermarks from content you own. |
 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 20.9k | Python | Open-source speech recognition toolkit for training, inference, streaming ASR... |
 | [AgnesAI-Labs/AgnesAI-Models](https://github.com/AgnesAI-Labs/AgnesAI-Models) | 5.3k | - | Official Agnes AI gateway and model catalog for OpenAI-compatible text, image... |
 | [CoderWanFeng/python-office](https://github.com/CoderWanFeng/python-office) | 1.4k | Python | pip install python-office 自动化办公专用库 |
@@ -147,11 +147,11 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 400.7k | Python | :books: Freely available programming books |
-| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 255.2k | - | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-line... |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 85.7k | Python | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
-| [fighting41love/funNLP](https://github.com/fighting41love/funNLP) | 84.3k | Python | 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、... |
-| [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 58.8k | Jupyter Notebook | 《动手学大模型Dive into LLMs》系列编程实践教程 |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 400.8k | Python | :books: Freely available programming books |
+| [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 255.5k | - | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-line... |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 85.8k | Python | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
+| [fighting41love/funNLP](https://github.com/fighting41love/funNLP) | 84.4k | Python | 中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、... |
+| [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 58.9k | Jupyter Notebook | 《动手学大模型Dive into LLMs》系列编程实践教程 |
 | [Advanced-Frontend/Daily-Interview-Question](https://github.com/Advanced-Frontend/Daily-Interview-Question) | 27.3k | JavaScript | 我是依扬（木易杨），公众号「高级前端进阶」作者，每天搞定一道前端大厂面试题，祝大家天天进步，一年后会看到不一样的自己。 |
 | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | 12.8k | Python | :star:Github Ranking:star: Github stars and forks ranking list. Github Top100... |
 | [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | 4.3k | Python | 《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章... |
@@ -163,7 +163,7 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 83.9k | - | 所有小初高、大学PDF教材。 |
+| [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 84k | - | 所有小初高、大学PDF教材。 |
 | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 39.5k | TypeScript | 人人都能用英语 |
 | [tangshimin/MuJing](https://github.com/tangshimin/MuJing) | 4.8k | Kotlin | 一款通过电影、美剧或文档中的真实语境学习英语单词的应用，让您在原汁原味的情境中记忆词汇，提升学习效率。 |
 | [xckevin/magic-english-buddy](https://github.com/xckevin/magic-english-buddy) | 317 | TypeScript | 专为儿童设计的 AI 英语阅读学习助手 |
@@ -178,8 +178,8 @@
 | [opendigg/awesome-github-wechat-weapp](https://github.com/opendigg/awesome-github-wechat-weapp) | 9.5k | - | 微信小程序开源项目库汇总 |
 | [JeffreySu/WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) | 8.9k | C# | 微信全平台 .NET SDK， Senparc.Weixin for C#，支持 .NET Framework 及 .NET Core、.NET 10.0... |
 | [ConnectAI-E/feishu-openai](https://github.com/ConnectAI-E/feishu-openai) | 5.6k | Go | 🎒 飞书  ×（GPT-4 + GPT-4V + DALL·E-3 + Whisper）=  飞一般的工作体验  🚀 语音对话、角色扮演、多话题讨论、图片... |
-| [larksuite/lark-openapi-mcp](https://github.com/larksuite/lark-openapi-mcp) | 853 | TypeScript | 飞书/Lark官方 OpenAPI MCP |
-| [cso1z/Feishu-MCP](https://github.com/cso1z/Feishu-MCP) | 744 | TypeScript | Feishu / Lark 飞书文档与任务管理工具，支持 MCP 服务器和 CLI + Skill 两种使用方式，可无缝集成 Cursor、Claude ... |
+| [larksuite/lark-openapi-mcp](https://github.com/larksuite/lark-openapi-mcp) | 854 | TypeScript | 飞书/Lark官方 OpenAPI MCP |
+| [cso1z/Feishu-MCP](https://github.com/cso1z/Feishu-MCP) | 745 | TypeScript | Feishu / Lark 飞书文档与任务管理工具，支持 MCP 服务器和 CLI + Skill 两种使用方式，可无缝集成 Cursor、Claude ... |
 
 ## 10. 🛠️ 前端 / 开发工具
 
@@ -188,7 +188,7 @@
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
 | [flutter/flutter](https://github.com/flutter/flutter) | 181k | Dart | Flutter makes it easy and fast to build beautiful apps for mobile and beyond |
-| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 38.4k | TypeScript | Clone any website with one command using AI coding agents |
+| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 38.5k | TypeScript | Clone any website with one command using AI coding agents |
 | [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue) | 21.7k | Vue | 🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜 |
 | [crmeb/CRMEB](https://github.com/crmeb/CRMEB) | 9.5k | Vue | 🔥CRMEB开源商城免费开源多语言商城系统，Tp6框架商城，系统可商用；包含小程序商城、H5商城、公众号商城、PC商城、App，支持分销、拼团、砍价、秒杀... |
 | [buuing/lucky-canvas](https://github.com/buuing/lucky-canvas) | 8.8k | TypeScript | 🎖🎖🎖 基于 TS + Canvas 开发的【大转盘 / 九宫格 / 老虎机】抽奖插件，🌈 一套源码适配多端框架 JS / Vue / React / T... |
@@ -201,7 +201,7 @@
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
 | [Dujltqzv/Some-Many-Books](https://github.com/Dujltqzv/Some-Many-Books) | 25.6k | - | 个人收藏书籍列表　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　... |
-| [z-libraryopp/z-libraryopp.github.io](https://github.com/z-libraryopp/z-libraryopp.github.io) | 2.9k | HTML | Z-library，官方Z-lib镜像网址及入口(2026/6/7) |
+| [z-libraryopp/z-libraryopp.github.io](https://github.com/z-libraryopp/z-libraryopp.github.io) | 3k | HTML | Z-library，官方Z-lib镜像网址及入口(2026/6/7) |
 
 ## 12. 🔧 实用工具
 
@@ -217,25 +217,25 @@
 
 | 仓库 | Stars | 语言 | 一句话简介 |
 |------|------:|------|-----------|
-| [morluto/rea](https://github.com/morluto/rea) | 420k | TypeScript | Reverse engineer anything with agents, from app behavior down to native binar... |
-| [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) | 206.8k | Markdown | Free domain registration and practical DNS learning resources for everyone. |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 182.3k | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best c... |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 107.8k | Python | Give your AI agent eyes to see the entire internet. Read & search Twitter, Re... |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 93.3k | Go | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine ... |
+| [morluto/rea](https://github.com/morluto/rea) | 424.2k | TypeScript | Reverse engineer anything with agents, from app behavior down to native binar... |
+| [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) | 206.9k | Markdown | Free domain registration and practical DNS learning resources for everyone. |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 183.1k | JavaScript | Makes your AI agent think like the laziest senior dev in the room. The best c... |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 108.2k | Python | Give your AI agent eyes to see the entire internet. Read & search Twitter, Re... |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 93.4k | Go | RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) e... |
 | [cline/cline](https://github.com/cline/cline) | 71.2k | TypeScript | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. |
-| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 66.3k | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polym... |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 32.7k | Shell | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skil... |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 66.4k | Python | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polym... |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 33.9k | Shell | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skil... |
 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 30.4k | Python | An autonomous agent that conducts deep research on any data using any LLM pro... |
-| [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) | 22.8k | - | Community plugins list, theme list, and releases of Obsidian. |
+| [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) | 22.9k | - | Community plugins list, theme list, and releases of Obsidian. |
 | [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | 20.4k | TypeScript | Desktop app to manage markdown knowledge bases |
 | [easychen/opc-methodology](https://github.com/easychen/opc-methodology) | 17k | PHP | 《一人企业方法论》第二版，也适合做其他副业（比如自媒体、电商、数字商品）的非技术人群。 |
 | [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) | 16.5k | PHP | A free, self-hostable news aggregator… |
 | [glzr-io/glazewm](https://github.com/glzr-io/glazewm) | 13k | Rust | GlazeWM is a tiling window manager for macOS and Windows inspired by i3wm. |
 | [atlassian/pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop) | 12.8k | TypeScript | Fast drag and drop for any experience on any tech stack |
+| [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 12.1k | Python | 📡 Your own AI-powered news radar. Generates daily briefings in English & Chin... |
 | [simonlin1212/a-stock-data](https://github.com/simonlin1212/a-stock-data) | 11.4k | Python | A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债... |
-| [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 11.4k | Python | 📡 Your own AI-powered news radar. Generates daily briefings in English & Chin... |
 | [phodal/github](https://github.com/phodal/github) | 11.3k | Rich Text Format | GitHub 漫游指南- a Chinese ebook on how to build a good project on Github. Explor... |
-| [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) | 8.2k | Python | Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网... |
+| [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) | 8.3k | Python | Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网... |
 | [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io) | 7.4k | CSS | ❤️静态响应式网址导航网站 - webstack.cc |
 | [InterceptSuite/ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) | 7k | C | Force Proxy to any Windows/MacOS/Linux Application TCP and UDP traffic |
 | [denizsafak/abogen](https://github.com/denizsafak/abogen) | 6.2k | Python | Generate audiobooks from EPUBs, PDFs and text with synchronized captions. |
@@ -244,14 +244,14 @@
 | [hypothesis/h](https://github.com/hypothesis/h) | 3.2k | Python | Annotate with anyone, anywhere. |
 | [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer) | 3k | TypeScript | Topic in, narrated explainer video out. A Claude Code / Codex skill that turn... |
 | [i365dev/awesome-seo](https://github.com/i365dev/awesome-seo) | 2.8k | - | Curated SEO, GEO & AI Search resources — technical SEO, agent discoverability... |
-| [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) | 2k | Python | Daily radar for new AI terms: names of new models, products and repos, caught... |
+| [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) | 2.1k | Python | Daily radar for new AI terms: names of new models, products and repos, caught... |
 | [twofas/2fas-android](https://github.com/twofas/2fas-android) | 1.6k | Kotlin | Source code for 2FAS Auth Android app |
 | [tllovesxs/wandao](https://github.com/tllovesxs/wandao) | 1.1k | Python | 万能导:多平台知识库 Markdown 全项目一键导入导出工具(导入导出效果最好),用自动化代替手动复制粘贴(有道云,飞书,语雀,阿里云知识库,知识星球,... |
 | [tigerless-labs/seo-ops](https://github.com/tigerless-labs/seo-ops) | 986 | Python | SEO foundation checks as an Agent Skill: give it a URL, get a crawler's-eye p... |
-| [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) | 601 | Python | Claude Code / Codex skills that turn a video into a Chinese narration recap (... |
+| [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) | 602 | Python | Claude Code / Codex skills that turn a video into a Chinese narration recap (... |
 | [twofas/2fas-pass-android](https://github.com/twofas/2fas-pass-android) | 309 | Kotlin | Source code for 2FAS Pass Android app |
 | [ozdemirburak/morse-code-translator](https://github.com/ozdemirburak/morse-code-translator) | 278 | TypeScript | Convert text to Morse code and Morse code to text. |
-| [32103210/gefei-seo-guide](https://github.com/32103210/gefei-seo-guide) | 29 | Python | 出海AI工具站SEO完全指南 — 基于哥飞公众号120+篇文章整理 |
+| [32103210/gefei-seo-guide](https://github.com/32103210/gefei-seo-guide) | 31 | Python | 出海AI工具站SEO完全指南 — 基于哥飞公众号120+篇文章整理 |
 
 ---
 
